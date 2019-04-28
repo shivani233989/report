@@ -234,7 +234,7 @@ framebuffer_inst : framebuffer port map (
     ld       => fbLd    ,
     addr1    => fbAddr1 ,
     addr2    => addr2   ,
-    wr_en1   => wr_enR1 , -- TBD 
+    wr_en1   => wr_enR1 ,  
     din1     => fbDout1 ,
     dout1    => fbDin1  ,
     dout2    => open     
